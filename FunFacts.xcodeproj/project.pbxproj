@@ -12,6 +12,8 @@
 		7965E02E1D1C3BBB00DCFBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7965E02C1D1C3BBB00DCFBAC /* Main.storyboard */; };
 		7965E0301D1C3BBB00DCFBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7965E02F1D1C3BBB00DCFBAC /* Assets.xcassets */; };
 		7965E0331D1C3BBB00DCFBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7965E0311D1C3BBB00DCFBAC /* LaunchScreen.storyboard */; };
+		79C063121D1C821000E6EDA3 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C063111D1C821000E6EDA3 /* FactModel.swift */; };
+		79C063141D1CA19100E6EDA3 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C063131D1CA19000E6EDA3 /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7965E02F1D1C3BBB00DCFBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7965E0321D1C3BBB00DCFBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7965E0341D1C3BBC00DCFBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C063111D1C821000E6EDA3 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		79C063131D1CA19000E6EDA3 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				7965E02F1D1C3BBB00DCFBAC /* Assets.xcassets */,
 				7965E0311D1C3BBB00DCFBAC /* LaunchScreen.storyboard */,
 				7965E0341D1C3BBC00DCFBAC /* Info.plist */,
+				79C063111D1C821000E6EDA3 /* FactModel.swift */,
+				79C063131D1CA19000E6EDA3 /* ColorModel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C063121D1C821000E6EDA3 /* FactModel.swift in Sources */,
 				7965E02B1D1C3BBB00DCFBAC /* ViewController.swift in Sources */,
 				7965E0291D1C3BBB00DCFBAC /* AppDelegate.swift in Sources */,
+				79C063141D1CA19100E6EDA3 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +257,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.or.codelabs.unikom.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.or.codelabs.unikom.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +295,7 @@
 				7965E0391D1C3BBC00DCFBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
